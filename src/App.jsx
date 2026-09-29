@@ -1,10 +1,12 @@
 import Counter from "./Counter";
+import ShowHide from "./ShowHide"
 
 function App() {
   return (
-    <div>
+    <>
       <Counter />
-    </div>
+      <ShowHide />
+    </>
   );
 }
 
