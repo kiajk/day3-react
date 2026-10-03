@@ -4,7 +4,9 @@ const [show, showState] = useState(false);
     return (
         <div>
             <button onClick={() => showState(!show)}>
-                show/Hide
+               {show
+               ? "Hide"
+                :"Show"}
             </button>
             {show && (
             <p>secret text</p>
